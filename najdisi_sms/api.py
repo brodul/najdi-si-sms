@@ -96,11 +96,10 @@ class SMSSender(object):
         data = {
             't:formdata': formdata_value,
             'jsecLogin': self.username,
-            'jsecRememberMe': 'on',
             'jsecPassword': self.password
         }
         response = self.s.post(
-            'http://www.najdi.si/prijava.jsecloginform',
+            'https://www.najdi.si/prijava.jsecloginform',
             data
         )
         assert 'Prejemnik' in response.text
