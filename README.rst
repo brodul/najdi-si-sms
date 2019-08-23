@@ -2,6 +2,7 @@
 Najdi-si-sms
 ============
 
+**Najdi si disabled this feature iin 2019 Q2**
 
 
 .. image:: https://travis-ci.org/brodul/najdi-si-sms.svg?branch=master
